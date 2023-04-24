@@ -1,15 +1,52 @@
 import { LitElement, html, css } from 'lit';
 
-const logo = new URL('../assets/open-wc-logo.svg', import.meta.url).href;
 
 class Remixer3 extends LitElement {
-  static properties = {
+  static get tag(){
+  return 'remixer-3';
+  }
+
+  static properties(){
+    return{
     header: { type: String},
     sepia: { type: Boolean, Reflect: true},
     grayscale: { type: Boolean, Reflect: true},
-  }
+    types: {type: Arra, Reflect: true},
+    backgroundColor: {type: String, Reflect: true},
+    tvButtons: {type: String, Reflect: true},
+    border: {type: String, Reflect: true},
+    textColor: {type: String, Reflect: true},
+    tvOutline: {type: String, Reflect: true},
+    cardColor: {type: String, Reflect: true},
+            
+    block1: {type: String, Reflect: true},
+    block2: {type: String, Reflect: true},
+    block3: {type: String, Reflect: true},
+    block4: {type: String, Reflect: true},
+    block5: {type: String, Reflect: true},
+    block6: {type: String, Reflect: true},
+    block7: {type: String, Reflect: true},
+            
+    bottom1: {type: String, Reflect: true},
+    bottom3: {type: String, Reflect: true},
+    bottom5: {type: String, Reflect: true},
+    bottom7: {type: String, Reflect: true},
+            
+    mediaColor: {type: String, Reflect: true},
+    topName: {type: String, Reflect: true},
+    name : {type: String, Reflect: true},
+    nameTitle : {type: String, Reflect: true},
+    namePlace : {type: String, Reflect: true},
+    image1: {type: String, Reflect: true},
+    logo: {type: String, Reflect: true
+    },
+  };
+}
 
-  static styles = css`
+
+  static get styles() {
+    return css`
+    
   :host([sepia]) {
     filter: sepia(60%);
   }
@@ -72,6 +109,7 @@ class Remixer3 extends LitElement {
     
 
   `;
+  }
 constructor(){
 super();
 this.backgroundColor= 'yellow';
