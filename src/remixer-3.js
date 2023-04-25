@@ -46,7 +46,7 @@ class Remixer3 extends LitElement {
 
   static get styles() {
     return css`
-    
+
   :host([sepia]) {
     filter: sepia(60%);
   }
@@ -140,8 +140,8 @@ this.topName= 'Media';
 this.name = 'bleh';
 this.nameTitle = 'lol';
 this.namePlace = 'target';
-this.image1 = 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png';
-this.logo = 'https://upload.wikimedia.org/wikipedia/commons/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg';
+this.image1 = '../assets/google.png';
+this.logo = '../assets/pngtree.png';
 }
 
 render() {

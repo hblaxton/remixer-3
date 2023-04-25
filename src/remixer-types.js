@@ -70,8 +70,9 @@ export class RemixerTypes extends LitElement {
         this.name = 'bleh';
         this.nameTitle = 'lol';
         this.namePlace = 'target';
-        this.image1 = 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png';
-        this.logo = 'https://upload.wikimedia.org/wikipedia/commons/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg';
+        this.image1 = '../assets/google.png';
+        this.logo = '../assets/pngtree.png';
+        this.updateType();
       }
 
         

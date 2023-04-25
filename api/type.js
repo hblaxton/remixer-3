@@ -29,8 +29,8 @@ export default async function handler(request, res) {
             "name" : 'bleh',
             "nameTitle" : 'boy',
             "namePlace" : 'boop',
-            "image1": 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png',
-            "logo": 'https://upload.wikimedia.org/wikipedia/commons/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+            "image1": './assets/google.png',
+            "logo": '../assets/pngtree.png',
 
 
 
@@ -64,8 +64,8 @@ export default async function handler(request, res) {
             "name" : 'bleh',
             "nameTitle" : 'boy',
             "namePlace" : 'boop',
-            "image1": 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png',
-            "logo": 'https://upload.wikimedia.org/wikipedia/commons/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+            "image1": './assets/google.png',
+            "logo": '../assets/pngtree.png',
         },
         {
 
@@ -96,8 +96,8 @@ export default async function handler(request, res) {
             "name" : 'bleh',
             "nameTitle" : 'boy',
             "namePlace" : 'boop',
-            "image1": 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png',
-            "logo": 'https://upload.wikimedia.org/wikipedia/commons/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+            "image1": './assets/google.png',
+            "logo": '../assets/pngtree.png',
     },
         
         
