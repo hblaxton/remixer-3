@@ -1,5 +1,5 @@
 import { LitElement, html, css } from 'lit';
-import "./remixer-3";
+import "./remixer-3.js";
 
 
 export class RemixerTypes extends LitElement {
@@ -70,8 +70,8 @@ export class RemixerTypes extends LitElement {
         this.name = 'bleh';
         this.nameTitle = 'lol';
         this.namePlace = 'target';
-        this.image1 = '../assets/google.png';
-        this.logo = '../assets/pngtree.png';
+        this.logo = new URL('../assets/pngtree.png', import.meta.url).href;
+        this.image1 = new URL('../assets/google.png', import.meta.url).href;
         this.updateType();
       }
 
@@ -91,20 +91,24 @@ export class RemixerTypes extends LitElement {
         }
         `;
     }
-    async updateType() { 
-        const adress = new URL('../api/type', import.meta.url).href;
-        fetch(adress).then((response) => {
-            if (response.ok) {
-                return response.json()
-            }
-            return[];
-        })
-        .then((data) => {
-            this.types = data;
-
-        });
-        console.log(data);
+    updateType() { 
+        const addres = new URL('../assets/type.json', import.meta.url).href;
+       const data = fetch (addres).then((response) => { 
+        if (response.ok){
+              return response.json()
         }
+        return [];
+         })
+         .then((data) => {
+                this.types = data;
+            });
+
+              console.log(data);
+
+       }
+    
+      
+
         
     render() {
         return html`

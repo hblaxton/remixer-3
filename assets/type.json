@@ -1,0 +1,82 @@
+[
+    {
+        "backgroundColor": "yellow",
+        "tvButtons": "Blue",
+        "border": "black",
+        "textColor": "white",
+        "tvOutline": "grey",
+        "cardColor": "blue",
+
+        "block1":"aquamarine",
+        "block2":"Blue",
+        "block3":"grey",
+        "block4":"green",
+        "block5":"Blue",
+        "block6":"purple",
+        "block7":"pink",
+
+        "bottom1":"purple",
+    
+        "bottom3":"purple",
+        
+        "bottom5":"purple",
+      
+        "bottom7":"purple",
+        "mediaColor": "Blue",
+        "topName": "Blue",
+        "name" : "bleh",
+        "nameTitle" : "boy",
+        "namePlace" : "boop",
+        "this.logo" : "new URL('../assets/pngtree.png', import.meta.url).href",
+        "this.image1" : "new URL('../assets/google.png', import.meta.url).href"
+
+        
+    
+    },
+    {
+     "backgroundColor": "yellow",
+        "tvButtons": "Blue",
+        "border": "black",
+        "textColor": "white",
+        "tvOutline": "grey",
+        "cardColor": "blue",
+
+        "block1":"aquamarine",
+        "block2":"Blue",
+        "block3":"grey",
+        "block4":"green",
+        "block5":"Blue",
+        "block6":"purple",
+        "block7":"pink",
+
+        "bottom1":"purple",
+    
+        "bottom3":"purple",
+        
+        "bottom5":"purple",
+      
+        "bottom7":"purple",
+        "mediaColor": "Blue",
+        "topName": "Blue",
+        "name" : "bleh",
+        "nameTitle" : "boy",
+        "namePlace" : "boop",
+        "this.logo" : "new URL('../assets/pngtree.png', import.meta.url).href",
+        "this.image1" : "new URL('../assets/google.png', import.meta.url).href"
+    },
+    
+    
+    
+    {
+        
+        
+    
+    },
+    
+    
+    {
+        
+    
+    }
+    ]
+        

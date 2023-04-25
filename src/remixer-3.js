@@ -1,6 +1,7 @@
 import { LitElement, html, css } from 'lit';
 
 
+
 class Remixer3 extends LitElement {
   static get tag(){
   return 'remixer-3';
@@ -140,9 +141,10 @@ this.topName= 'Media';
 this.name = 'bleh';
 this.nameTitle = 'lol';
 this.namePlace = 'target';
-this.image1 = '../assets/google.png';
-this.logo = '../assets/pngtree.png';
+this.logo = new URL('../assets/pngtree.png', import.meta.url).href;
+this.image1 = new URL('../assets/google.png', import.meta.url).href;
 }
+
 
 render() {
 return html`
