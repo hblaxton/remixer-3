@@ -2,7 +2,7 @@
     {
         "backgroundColor": "yellow",
         "tvButtons": "Blue",
-        "border": "black",
+        "border1": "black",
         "textColor": "white",
         "tvOutline": "grey",
         "cardColor": "blue",
@@ -36,7 +36,7 @@
     {
      "backgroundColor": "yellow",
         "tvButtons": "Blue",
-        "border": "black",
+        "border1": "black",
         "textColor": "white",
         "tvOutline": "grey",
         "cardColor": "blue",
@@ -61,8 +61,9 @@
         "name" : "bleh",
         "nameTitle" : "boy",
         "namePlace" : "boop",
-        "this.logo" : "new URL('../assets/pngtree.png', import.meta.url).href",
-        "this.image1" : "new URL('../assets/google.png', import.meta.url).href"
+        "this.logo" : "https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png",
+        "this.image1" : "https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png"
+
     },
     
     

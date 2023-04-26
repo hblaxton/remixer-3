@@ -12,7 +12,7 @@ export class RemixerTypes extends LitElement {
             types: {type: Array},
             backgroundColor: {type: String},
             tvButtons: {type: String},
-            border: {type: String},
+            border1: {type: String},
             textColor: {type: String},
             tvOutline: {type: String},
             cardColor: {type: String},
@@ -44,7 +44,7 @@ export class RemixerTypes extends LitElement {
         this.types=[]; 
         this.backgroundColor= 'yellow';
         this.tvButtons= 'Blue';
-        this.border= 'black';
+        this.border1= 'black';
         this.textColor= 'white';
         this.tvOutline= 'grey';
         this.cardColor= 'blue';
@@ -70,8 +70,8 @@ export class RemixerTypes extends LitElement {
         this.name = 'bleh';
         this.nameTitle = 'lol';
         this.namePlace = 'target';
-        this.logo = new URL('../assets/pngtree.png', import.meta.url).href;
-        this.image1 = new URL('../assets/google.png', import.meta.url).href;
+        this.logo = "https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png";
+        this.image1 = "https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png";
         this.updateType();
       }
 
@@ -118,7 +118,7 @@ export class RemixerTypes extends LitElement {
         <remixer-3 
         backgroundColor="${type.backgroundColor}"
         tvButtons="${type.tvButtons}"
-        border="${type.border}"
+        border1="${type.border1}"
         textColor="${type.textColor}"
         tvOutline="${type.tvOutline}"
         cardColor="${type.cardColor}"
