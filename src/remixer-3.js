@@ -59,7 +59,7 @@ class Remixer3 extends LitElement {
     height: 258px;
     position: relative;
   }
-    :host {
+    /* :host {
       min-height: 100vh;
       display: flex;
       flex-direction: column;
@@ -71,6 +71,10 @@ class Remixer3 extends LitElement {
       margin: 0 auto;
       text-align: center;
       background-color: var(--remixer-3-background-color);
+    } */
+    :host {
+      display: block;
+      padding: 25px;
     }
 
     main {

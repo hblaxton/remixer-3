@@ -1,5 +1,70 @@
 [
     {
+        "backgroundColor": "white",
+        "tvButtons": "black",
+        "border1": "black",
+        "textColor": "white",
+        "tvOutline": "grey",
+        "cardColor": "blue",
+
+        "block1":"aquamarine",
+        "block2":"Blue",
+        "block3":"grey",
+        "block4":"green",
+        "block5":"Blue",
+        "block6":"purple",
+        "block7":"pink",
+
+        "bottom1":"purple",
+    
+        "bottom3":"purple",
+        
+        "bottom5":"purple",
+      
+        "bottom7":"purple",
+        "mediaColor": "Blue",
+        "topName": "Blue",
+        "name" : "bleh",
+        "nameTitle" : "boy",
+        "namePlace" : "boop",
+        "this.logo" : "https://www.news10.com/wp-content/uploads/sites/64/2022/07/Cat.jpg?w=1280&h=720&crop=1",
+        "this.image1" : "https://www.news10.com/wp-content/uploads/sites/64/2022/07/Cat.jpg?w=1280&h=720&crop=1"
+
+        
+    
+    },
+    {
+     "backgroundColor": "yellow",
+        "tvButtons": "Blue",
+        "border1": "black",
+        "textColor": "white",
+        "tvOutline": "grey",
+        "cardColor": "blue",
+
+        "block1":"aquamarine",
+        "block2":"Blue",
+        "block3":"grey",
+        "block4":"green",
+        "block5":"Blue",
+        "block6":"purple",
+        "block7":"pink",
+        "bottom1":"purple",
+        "bottom3":"purple",
+        "bottom5":"purple",
+        "bottom7":"purple",
+        "mediaColor": "Blue",
+        "topName": "Blue",
+        "name" : "bleh",
+        "nameTitle" : "boy",
+        "namePlace" : "boop",
+        "this.logo" : "https://www.news10.com/wp-content/uploads/sites/64/2022/07/Cat.jpg?w=1280&h=720&crop=1",
+        "this.image1" : "https://www.news10.com/wp-content/uploads/sites/64/2022/07/Cat.jpg?w=1280&h=720&crop=1"
+
+    },
+    
+    
+    
+    {
         "backgroundColor": "yellow",
         "tvButtons": "Blue",
         "border1": "black",
@@ -27,14 +92,16 @@
         "name" : "bleh",
         "nameTitle" : "boy",
         "namePlace" : "boop",
-        "this.logo" : "new URL('../assets/pngtree.png', import.meta.url).href",
-        "this.image1" : "new URL('../assets/google.png', import.meta.url).href"
-
+        "this.logo" : "https://www.news10.com/wp-content/uploads/sites/64/2022/07/Cat.jpg?w=1280&h=720&crop=1",
+        "this.image1" : "https://www.news10.com/wp-content/uploads/sites/64/2022/07/Cat.jpg?w=1280&h=720&crop=1"
+        
         
     
     },
+    
+    
     {
-     "backgroundColor": "yellow",
+        "backgroundColor": "yellow",
         "tvButtons": "Blue",
         "border1": "black",
         "textColor": "white",
@@ -61,21 +128,8 @@
         "name" : "bleh",
         "nameTitle" : "boy",
         "namePlace" : "boop",
-        "this.logo" : "https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png",
-        "this.image1" : "https://www.pngitem.com/pimgs/m/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png"
-
-    },
-    
-    
-    
-    {
-        
-        
-    
-    },
-    
-    
-    {
+        "this.logo" : "https://www.news10.com/wp-content/uploads/sites/64/2022/07/Cat.jpg?w=1280&h=720&crop=1",
+        "this.image1" : "https://www.news10.com/wp-content/uploads/sites/64/2022/07/Cat.jpg?w=1280&h=720&crop=1"
         
     
     }

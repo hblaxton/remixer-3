@@ -81,19 +81,15 @@ export class RemixerTypes extends LitElement {
         :host {
             display: block;
         }
-        .wrapper {
-            
-            border: 2px solid black;
-            display: flex;
-        }
+        
         .item {
             display: inline-flex;
         }
         `;
     }
     updateType() { 
-        const addres = new URL('../assets/type.json', import.meta.url).href;
-       const data = fetch (addres).then((response) => { 
+        const address = new URL('../assets/type.json', import.meta.url).href;
+       fetch (address).then((response) => { 
         if (response.ok){
               return response.json()
         }
@@ -101,9 +97,9 @@ export class RemixerTypes extends LitElement {
          })
          .then((data) => {
                 this.types = data;
+                console.log(data);
             });
 
-              console.log(data);
 
        }
     
