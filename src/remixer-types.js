@@ -43,7 +43,7 @@ export class RemixerTypes extends LitElement {
         super();
         this.types=[]; 
         this.backgroundColor= 'yellow';
-        this.tvButtons= 'Blue';
+        this.tvButtons= 'blue';
         this.border1= 'black';
         this.textColor= 'white';
         this.tvOutline= 'grey';
