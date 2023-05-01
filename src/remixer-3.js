@@ -78,7 +78,7 @@ class Remixer3 extends LitElement {
       width: 100px;
       position: absolute;
       bottom: 50px;
-      right: 20px;
+      right: 160px;
     }
     
 
@@ -111,13 +111,13 @@ constructor(){
 
   this.mediaColor='white';
   this.topName= 'Media';
-  this.name = 'bleh';
-  this.nameTitle = 'lol';
-  this.namePlace = 'target';
+  this.name = 'google';
+  this.nameTitle = 'Landscaping Business';
+  this.namePlace = 'you can never escape the tree';
   this.logo = new URL('../assets/pngtree.png', import.meta.url).href;
   this.image1 = new URL('../assets/google.png', import.meta.url).href;
-  this.height = "470px";
-  this.width = "360px";
+  this.height = "500px";
+  this.width = "650px";
 }
 
 updated(changedProperties) {
